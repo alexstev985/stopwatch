@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', 'sans-serif';
+}
+
+#wrapper {
+    padding: 50px;
+    display: block;
+    width: 300px;
+    margin: auto;
+    border: 5px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(45deg, #0069D9, #C82333) 1;
+    margin-top: 50px;
+}
+
+.dark {
+    background-color: black;
+}
+
+#stopwatch{
+    margin: auto;
+    font-size: 32px;
+    max-width: 300px;
+    max-height: 75px;
+    padding: 10px;
+    background-color: #0069D9;
+    color: white;
+    border: solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#buttons{
+    margin: auto;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#buttons button{
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#mode i {
+    color: #0069D9;
+}
+
+#sun {
+    position: relative;
+    right: 40px;
+}
